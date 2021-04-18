@@ -1,0 +1,23 @@
+$security--feature-flags: (
+  css-gridish: false,
+);
+
+$feature-flags: (
+  ui-shell: true,
+ 
+);
+
+
+
+$css--font-face: true;
+
+@import "~carbon-components/scss/globals/scss/vars";
+@import "~carbon-components/scss/globals/scss/typography";
+
+
+.security--data-table {
+  width: 100%;
+  padding-top: 100px;
+}
+
+
